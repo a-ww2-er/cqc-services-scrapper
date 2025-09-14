@@ -1,0 +1,43 @@
+2025-09-14T14:12:41: Traceback (most recent call last):
+2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-14T14:12:41:     main()
+2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/mainScraper.py", line 376, in main
+2025-09-14T14:12:41:     emails = scrape_emails_from_website(org_website)
+2025-09-14T14:12:41:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/mainScraper.py", line 254, in scrape_emails_from_website
+2025-09-14T14:12:41:     homepage_emails = scrape_page_for_emails(website_url)
+2025-09-14T14:12:41:                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/mainScraper.py", line 212, in scrape_page_for_emails
+2025-09-14T14:12:41:     response = requests.get(url, headers=HEADERS, timeout=8)
+2025-09-14T14:12:41:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/requests/api.py", line 73, in get
+2025-09-14T14:12:41:     return request("get", url, params=params, **kwargs)
+2025-09-14T14:12:41:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/requests/api.py", line 59, in request
+2025-09-14T14:12:41:     return session.request(method=method, url=url, **kwargs)
+2025-09-14T14:12:41:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+2025-09-14T14:12:41:     resp = self.send(prep, **send_kwargs)
+2025-09-14T14:12:41:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+2025-09-14T14:12:41:     r = adapter.send(request, **kwargs)
+2025-09-14T14:12:41:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/requests/adapters.py", line 644, in send
+2025-09-14T14:12:41:     resp = conn.urlopen(
+2025-09-14T14:12:41:            ^^^^^^^^^^^^^
+2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+2025-09-14T14:12:41:     response = self._make_request(
+2025-09-14T14:12:41:                ^^^^^^^^^^^^^^^^^^^
+2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+2025-09-14T14:12:41:     self._validate_conn(conn)
+2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+2025-09-14T14:12:41:     conn.connect()
+2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/urllib3/connection.py", line 753, in connect
+2025-09-14T14:12:41:     self.sock = sock = self._new_conn()
+2025-09-14T14:12:41:                        ^^^^^^^^^^^^^^^^
+2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
+2025-09-14T14:12:41:     sock = connection.create_connection(
+2025-09-14T14:12:41:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+2025-09-14T14:12:41:     sock.connect(sa)
+2025-09-14T14:12:41: KeyboardInterrupt
