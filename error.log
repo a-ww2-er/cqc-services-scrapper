@@ -1,43 +1,1278 @@
-2025-09-14T14:12:41: Traceback (most recent call last):
-2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
-2025-09-14T14:12:41:     main()
-2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/mainScraper.py", line 376, in main
-2025-09-14T14:12:41:     emails = scrape_emails_from_website(org_website)
-2025-09-14T14:12:41:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/mainScraper.py", line 254, in scrape_emails_from_website
-2025-09-14T14:12:41:     homepage_emails = scrape_page_for_emails(website_url)
-2025-09-14T14:12:41:                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/mainScraper.py", line 212, in scrape_page_for_emails
-2025-09-14T14:12:41:     response = requests.get(url, headers=HEADERS, timeout=8)
-2025-09-14T14:12:41:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/requests/api.py", line 73, in get
-2025-09-14T14:12:41:     return request("get", url, params=params, **kwargs)
-2025-09-14T14:12:41:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/requests/api.py", line 59, in request
-2025-09-14T14:12:41:     return session.request(method=method, url=url, **kwargs)
-2025-09-14T14:12:41:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
-2025-09-14T14:12:41:     resp = self.send(prep, **send_kwargs)
-2025-09-14T14:12:41:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
-2025-09-14T14:12:41:     r = adapter.send(request, **kwargs)
-2025-09-14T14:12:41:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/requests/adapters.py", line 644, in send
-2025-09-14T14:12:41:     resp = conn.urlopen(
-2025-09-14T14:12:41:            ^^^^^^^^^^^^^
-2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
-2025-09-14T14:12:41:     response = self._make_request(
-2025-09-14T14:12:41:                ^^^^^^^^^^^^^^^^^^^
-2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
-2025-09-14T14:12:41:     self._validate_conn(conn)
-2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
-2025-09-14T14:12:41:     conn.connect()
-2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/urllib3/connection.py", line 753, in connect
-2025-09-14T14:12:41:     self.sock = sock = self._new_conn()
-2025-09-14T14:12:41:                        ^^^^^^^^^^^^^^^^
-2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
-2025-09-14T14:12:41:     sock = connection.create_connection(
-2025-09-14T14:12:41:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-2025-09-14T14:12:41:   File "/root/cqc-services-scrapper/venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
-2025-09-14T14:12:41:     sock.connect(sa)
-2025-09-14T14:12:41: KeyboardInterrupt
+2025-09-24T07:51:30: Traceback (most recent call last):
+2025-09-24T07:51:30:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:30:     main()
+2025-09-24T07:51:30:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:30:     time.sleep(0.5)
+2025-09-24T07:51:30: KeyboardInterrupt
+2025-09-24T07:51:32: Traceback (most recent call last):
+2025-09-24T07:51:32:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:32:     main()
+2025-09-24T07:51:32:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:32:     time.sleep(0.5)
+2025-09-24T07:51:32: KeyboardInterrupt
+2025-09-24T07:51:33: Traceback (most recent call last):
+2025-09-24T07:51:33:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:33:     main()
+2025-09-24T07:51:33:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:33:     time.sleep(0.5)
+2025-09-24T07:51:33: KeyboardInterrupt
+2025-09-24T07:51:34: Traceback (most recent call last):
+2025-09-24T07:51:34:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:34:     main()
+2025-09-24T07:51:34:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:34:     time.sleep(0.5)
+2025-09-24T07:51:34: KeyboardInterrupt
+2025-09-24T07:51:35: Traceback (most recent call last):
+2025-09-24T07:51:35:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:35:     main()
+2025-09-24T07:51:35:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:35:     time.sleep(0.5)
+2025-09-24T07:51:35: KeyboardInterrupt
+2025-09-24T07:51:35: Traceback (most recent call last):
+2025-09-24T07:51:35:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:35:     main()
+2025-09-24T07:51:35:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:35:     time.sleep(0.5)
+2025-09-24T07:51:35: KeyboardInterrupt
+2025-09-24T07:51:35: Traceback (most recent call last):
+2025-09-24T07:51:35:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:35:     main()
+2025-09-24T07:51:35:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:35:     time.sleep(0.5)
+2025-09-24T07:51:35: KeyboardInterrupt
+2025-09-24T07:51:36: Traceback (most recent call last):
+2025-09-24T07:51:36:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:36:     main()
+2025-09-24T07:51:36:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:36:     time.sleep(0.5)
+2025-09-24T07:51:36: KeyboardInterrupt
+2025-09-24T07:51:36: Traceback (most recent call last):
+2025-09-24T07:51:36:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:36:     main()
+2025-09-24T07:51:36:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:36:     time.sleep(0.5)
+2025-09-24T07:51:36: KeyboardInterrupt
+2025-09-24T07:51:37: Traceback (most recent call last):
+2025-09-24T07:51:37:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:37:     main()
+2025-09-24T07:51:37:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:37:     time.sleep(0.5)
+2025-09-24T07:51:37: KeyboardInterrupt
+2025-09-24T07:51:37: Traceback (most recent call last):
+2025-09-24T07:51:37:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:37:     main()
+2025-09-24T07:51:37:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:37:     time.sleep(0.5)
+2025-09-24T07:51:37: KeyboardInterrupt
+2025-09-24T07:51:38: Traceback (most recent call last):
+2025-09-24T07:51:38:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:38:     main()
+2025-09-24T07:51:38:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:38:     time.sleep(0.5)
+2025-09-24T07:51:38: KeyboardInterrupt
+2025-09-24T07:51:38: Traceback (most recent call last):
+2025-09-24T07:51:38:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:38:     main()
+2025-09-24T07:51:38:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:38:     time.sleep(0.5)
+2025-09-24T07:51:38: KeyboardInterrupt
+2025-09-24T07:51:39: Traceback (most recent call last):
+2025-09-24T07:51:39:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:39:     main()
+2025-09-24T07:51:39:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:39:     time.sleep(0.5)
+2025-09-24T07:51:39: KeyboardInterrupt
+2025-09-24T07:51:39: Traceback (most recent call last):
+2025-09-24T07:51:39:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:39:     main()
+2025-09-24T07:51:39:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:39:     time.sleep(0.5)
+2025-09-24T07:51:39: KeyboardInterrupt
+2025-09-24T07:51:39: Traceback (most recent call last):
+2025-09-24T07:51:39:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:39:     main()
+2025-09-24T07:51:39:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:39:     time.sleep(0.5)
+2025-09-24T07:51:39: KeyboardInterrupt
+2025-09-24T07:51:40: Traceback (most recent call last):
+2025-09-24T07:51:40:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:40:     main()
+2025-09-24T07:51:40:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:40:     time.sleep(0.5)
+2025-09-24T07:51:40: KeyboardInterrupt
+2025-09-24T07:51:40: Traceback (most recent call last):
+2025-09-24T07:51:40:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:40:     main()
+2025-09-24T07:51:40:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:40:     time.sleep(0.5)
+2025-09-24T07:51:40: KeyboardInterrupt
+2025-09-24T07:51:41: Traceback (most recent call last):
+2025-09-24T07:51:41:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:41:     main()
+2025-09-24T07:51:41:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:41:     time.sleep(0.5)
+2025-09-24T07:51:41: KeyboardInterrupt
+2025-09-24T07:51:41: Traceback (most recent call last):
+2025-09-24T07:51:41:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:41:     main()
+2025-09-24T07:51:41:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:41:     time.sleep(0.5)
+2025-09-24T07:51:41: KeyboardInterrupt
+2025-09-24T07:51:42: Traceback (most recent call last):
+2025-09-24T07:51:42:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:42:     main()
+2025-09-24T07:51:42:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:42:     time.sleep(0.5)
+2025-09-24T07:51:42: KeyboardInterrupt
+2025-09-24T07:51:42: Traceback (most recent call last):
+2025-09-24T07:51:42:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:42:     main()
+2025-09-24T07:51:42:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:42:     time.sleep(0.5)
+2025-09-24T07:51:42: KeyboardInterrupt
+2025-09-24T07:51:43: Traceback (most recent call last):
+2025-09-24T07:51:43:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:43:     main()
+2025-09-24T07:51:43:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:43:     time.sleep(0.5)
+2025-09-24T07:51:43: KeyboardInterrupt
+2025-09-24T07:51:43: Traceback (most recent call last):
+2025-09-24T07:51:43:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:43:     main()
+2025-09-24T07:51:43:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:43:     time.sleep(0.5)
+2025-09-24T07:51:43: KeyboardInterrupt
+2025-09-24T07:51:44: Traceback (most recent call last):
+2025-09-24T07:51:44:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:44:     main()
+2025-09-24T07:51:44:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:44:     time.sleep(0.5)
+2025-09-24T07:51:44: KeyboardInterrupt
+2025-09-24T07:51:44: Traceback (most recent call last):
+2025-09-24T07:51:44:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:44:     main()
+2025-09-24T07:51:44:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:44:     time.sleep(0.5)
+2025-09-24T07:51:44: KeyboardInterrupt
+2025-09-24T07:51:44: Traceback (most recent call last):
+2025-09-24T07:51:44:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:44:     main()
+2025-09-24T07:51:44:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:44:     time.sleep(0.5)
+2025-09-24T07:51:44: KeyboardInterrupt
+2025-09-24T07:51:45: Traceback (most recent call last):
+2025-09-24T07:51:45:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:45:     main()
+2025-09-24T07:51:45:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:45:     time.sleep(0.5)
+2025-09-24T07:51:45: KeyboardInterrupt
+2025-09-24T07:51:45: Traceback (most recent call last):
+2025-09-24T07:51:45:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:45:     main()
+2025-09-24T07:51:45:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:45:     time.sleep(0.5)
+2025-09-24T07:51:45: KeyboardInterrupt
+2025-09-24T07:51:46: Traceback (most recent call last):
+2025-09-24T07:51:46:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:46:     main()
+2025-09-24T07:51:46:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:46:     time.sleep(0.5)
+2025-09-24T07:51:46: KeyboardInterrupt
+2025-09-24T07:51:46: Traceback (most recent call last):
+2025-09-24T07:51:46:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:46:     main()
+2025-09-24T07:51:46:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:46:     time.sleep(0.5)
+2025-09-24T07:51:46: KeyboardInterrupt
+2025-09-24T07:51:47: Traceback (most recent call last):
+2025-09-24T07:51:47:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:47:     main()
+2025-09-24T07:51:47:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:47:     time.sleep(0.5)
+2025-09-24T07:51:47: KeyboardInterrupt
+2025-09-24T07:51:47: Traceback (most recent call last):
+2025-09-24T07:51:47:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:47:     main()
+2025-09-24T07:51:47:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:47:     time.sleep(0.5)
+2025-09-24T07:51:47: KeyboardInterrupt
+2025-09-24T07:51:48: Traceback (most recent call last):
+2025-09-24T07:51:48:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:48:     main()
+2025-09-24T07:51:48:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:48:     time.sleep(0.5)
+2025-09-24T07:51:48: KeyboardInterrupt
+2025-09-24T07:51:48: Traceback (most recent call last):
+2025-09-24T07:51:48:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:48:     main()
+2025-09-24T07:51:48:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:48:     time.sleep(0.5)
+2025-09-24T07:51:48: KeyboardInterrupt
+2025-09-24T07:51:48: Traceback (most recent call last):
+2025-09-24T07:51:48:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:48:     main()
+2025-09-24T07:51:48:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:48:     time.sleep(0.5)
+2025-09-24T07:51:48: KeyboardInterrupt
+2025-09-24T07:51:49: Traceback (most recent call last):
+2025-09-24T07:51:49:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:49:     main()
+2025-09-24T07:51:49:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:49:     time.sleep(0.5)
+2025-09-24T07:51:49: KeyboardInterrupt
+2025-09-24T07:51:49: Traceback (most recent call last):
+2025-09-24T07:51:49:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:49:     main()
+2025-09-24T07:51:49:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:49:     time.sleep(0.5)
+2025-09-24T07:51:49: KeyboardInterrupt
+2025-09-24T07:51:50: Traceback (most recent call last):
+2025-09-24T07:51:50:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:50:     main()
+2025-09-24T07:51:50:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:50:     time.sleep(0.5)
+2025-09-24T07:51:50: KeyboardInterrupt
+2025-09-24T07:51:50: Traceback (most recent call last):
+2025-09-24T07:51:50:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:50:     main()
+2025-09-24T07:51:50:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:50:     time.sleep(0.5)
+2025-09-24T07:51:50: KeyboardInterrupt
+2025-09-24T07:51:51: Traceback (most recent call last):
+2025-09-24T07:51:51:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:51:     main()
+2025-09-24T07:51:51:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:51:     time.sleep(0.5)
+2025-09-24T07:51:51: KeyboardInterrupt
+2025-09-24T07:51:51: Traceback (most recent call last):
+2025-09-24T07:51:51:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:51:     main()
+2025-09-24T07:51:51:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:51:     time.sleep(0.5)
+2025-09-24T07:51:51: KeyboardInterrupt
+2025-09-24T07:51:51: Traceback (most recent call last):
+2025-09-24T07:51:51:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:51:     main()
+2025-09-24T07:51:51:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:51:     time.sleep(0.5)
+2025-09-24T07:51:51: KeyboardInterrupt
+2025-09-24T07:51:52: Traceback (most recent call last):
+2025-09-24T07:51:52:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:52:     main()
+2025-09-24T07:51:52:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:52:     time.sleep(0.5)
+2025-09-24T07:51:52: KeyboardInterrupt
+2025-09-24T07:51:52: Traceback (most recent call last):
+2025-09-24T07:51:52:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:52:     main()
+2025-09-24T07:51:52:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:52:     time.sleep(0.5)
+2025-09-24T07:51:52: KeyboardInterrupt
+2025-09-24T07:51:53: Traceback (most recent call last):
+2025-09-24T07:51:53:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:53:     main()
+2025-09-24T07:51:53:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:53:     time.sleep(0.5)
+2025-09-24T07:51:53: KeyboardInterrupt
+2025-09-24T07:51:53: Traceback (most recent call last):
+2025-09-24T07:51:53:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:53:     main()
+2025-09-24T07:51:53:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:53:     time.sleep(0.5)
+2025-09-24T07:51:53: KeyboardInterrupt
+2025-09-24T07:51:53: Traceback (most recent call last):
+2025-09-24T07:51:53:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:53:     main()
+2025-09-24T07:51:53:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:53:     time.sleep(0.5)
+2025-09-24T07:51:53: KeyboardInterrupt
+2025-09-24T07:51:54: Traceback (most recent call last):
+2025-09-24T07:51:54:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:54:     main()
+2025-09-24T07:51:54:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:54:     time.sleep(0.5)
+2025-09-24T07:51:54: KeyboardInterrupt
+2025-09-24T07:51:54: Traceback (most recent call last):
+2025-09-24T07:51:54:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:54:     main()
+2025-09-24T07:51:54:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:54:     time.sleep(0.5)
+2025-09-24T07:51:54: KeyboardInterrupt
+2025-09-24T07:51:55: Traceback (most recent call last):
+2025-09-24T07:51:55:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:55:     main()
+2025-09-24T07:51:55:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:55:     time.sleep(0.5)
+2025-09-24T07:51:55: KeyboardInterrupt
+2025-09-24T07:51:55: Traceback (most recent call last):
+2025-09-24T07:51:55:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:55:     main()
+2025-09-24T07:51:55:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:55:     time.sleep(0.5)
+2025-09-24T07:51:55: KeyboardInterrupt
+2025-09-24T07:51:56: Traceback (most recent call last):
+2025-09-24T07:51:56:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:56:     main()
+2025-09-24T07:51:56:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:56:     time.sleep(0.5)
+2025-09-24T07:51:56: KeyboardInterrupt
+2025-09-24T07:51:56: Traceback (most recent call last):
+2025-09-24T07:51:56:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:56:     main()
+2025-09-24T07:51:56:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:56:     time.sleep(0.5)
+2025-09-24T07:51:56: KeyboardInterrupt
+2025-09-24T07:51:57: Traceback (most recent call last):
+2025-09-24T07:51:57:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:57:     main()
+2025-09-24T07:51:57:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:57:     time.sleep(0.5)
+2025-09-24T07:51:57: KeyboardInterrupt
+2025-09-24T07:51:57: Traceback (most recent call last):
+2025-09-24T07:51:57:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:57:     main()
+2025-09-24T07:51:57:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:57:     time.sleep(0.5)
+2025-09-24T07:51:57: KeyboardInterrupt
+2025-09-24T07:51:57: Traceback (most recent call last):
+2025-09-24T07:51:57:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:57:     main()
+2025-09-24T07:51:57:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:57:     time.sleep(0.5)
+2025-09-24T07:51:57: KeyboardInterrupt
+2025-09-24T07:51:58: Traceback (most recent call last):
+2025-09-24T07:51:58:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:58:     main()
+2025-09-24T07:51:58:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:58:     time.sleep(0.5)
+2025-09-24T07:51:58: KeyboardInterrupt
+2025-09-24T07:51:58: Traceback (most recent call last):
+2025-09-24T07:51:58:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:58:     main()
+2025-09-24T07:51:58:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:58:     time.sleep(0.5)
+2025-09-24T07:51:58: KeyboardInterrupt
+2025-09-24T07:51:59: Traceback (most recent call last):
+2025-09-24T07:51:59:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:59:     main()
+2025-09-24T07:51:59:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:59:     time.sleep(0.5)
+2025-09-24T07:51:59: KeyboardInterrupt
+2025-09-24T07:51:59: Traceback (most recent call last):
+2025-09-24T07:51:59:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:51:59:     main()
+2025-09-24T07:51:59:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:51:59:     time.sleep(0.5)
+2025-09-24T07:51:59: KeyboardInterrupt
+2025-09-24T07:52:00: Traceback (most recent call last):
+2025-09-24T07:52:00:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:00:     main()
+2025-09-24T07:52:00:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:00:     time.sleep(0.5)
+2025-09-24T07:52:00: KeyboardInterrupt
+2025-09-24T07:52:00: Traceback (most recent call last):
+2025-09-24T07:52:00:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:00:     main()
+2025-09-24T07:52:00:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:00:     time.sleep(0.5)
+2025-09-24T07:52:00: KeyboardInterrupt
+2025-09-24T07:52:01: Traceback (most recent call last):
+2025-09-24T07:52:01:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:01:     main()
+2025-09-24T07:52:01:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:01:     time.sleep(0.5)
+2025-09-24T07:52:01: KeyboardInterrupt
+2025-09-24T07:52:01: Traceback (most recent call last):
+2025-09-24T07:52:01:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:01:     main()
+2025-09-24T07:52:01:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:01:     time.sleep(0.5)
+2025-09-24T07:52:01: KeyboardInterrupt
+2025-09-24T07:52:01: Traceback (most recent call last):
+2025-09-24T07:52:01:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:01:     main()
+2025-09-24T07:52:01:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:01:     time.sleep(0.5)
+2025-09-24T07:52:01: KeyboardInterrupt
+2025-09-24T07:52:02: Traceback (most recent call last):
+2025-09-24T07:52:02:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:02:     main()
+2025-09-24T07:52:02:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:02:     time.sleep(0.5)
+2025-09-24T07:52:02: KeyboardInterrupt
+2025-09-24T07:52:02: Traceback (most recent call last):
+2025-09-24T07:52:02:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:02:     main()
+2025-09-24T07:52:02:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:02:     time.sleep(0.5)
+2025-09-24T07:52:02: KeyboardInterrupt
+2025-09-24T07:52:03: Traceback (most recent call last):
+2025-09-24T07:52:03:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:03:     main()
+2025-09-24T07:52:03:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:03:     time.sleep(0.5)
+2025-09-24T07:52:03: KeyboardInterrupt
+2025-09-24T07:52:03: Traceback (most recent call last):
+2025-09-24T07:52:03:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:03:     main()
+2025-09-24T07:52:03:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:03:     time.sleep(0.5)
+2025-09-24T07:52:03: KeyboardInterrupt
+2025-09-24T07:52:04: Traceback (most recent call last):
+2025-09-24T07:52:04:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:04:     main()
+2025-09-24T07:52:04:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:04:     time.sleep(0.5)
+2025-09-24T07:52:04: KeyboardInterrupt
+2025-09-24T07:52:04: Traceback (most recent call last):
+2025-09-24T07:52:04:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:04:     main()
+2025-09-24T07:52:04:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:04:     time.sleep(0.5)
+2025-09-24T07:52:04: KeyboardInterrupt
+2025-09-24T07:52:05: Traceback (most recent call last):
+2025-09-24T07:52:05:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:05:     main()
+2025-09-24T07:52:05:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:05:     time.sleep(0.5)
+2025-09-24T07:52:05: KeyboardInterrupt
+2025-09-24T07:52:05: Traceback (most recent call last):
+2025-09-24T07:52:05:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:05:     main()
+2025-09-24T07:52:05:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:05:     time.sleep(0.5)
+2025-09-24T07:52:05: KeyboardInterrupt
+2025-09-24T07:52:06: Traceback (most recent call last):
+2025-09-24T07:52:06:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:06:     main()
+2025-09-24T07:52:06:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:06:     time.sleep(0.5)
+2025-09-24T07:52:06: KeyboardInterrupt
+2025-09-24T07:52:06: Traceback (most recent call last):
+2025-09-24T07:52:06:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:06:     main()
+2025-09-24T07:52:06:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:06:     time.sleep(0.5)
+2025-09-24T07:52:06: KeyboardInterrupt
+2025-09-24T07:52:06: Traceback (most recent call last):
+2025-09-24T07:52:06:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:06:     main()
+2025-09-24T07:52:06:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:06:     time.sleep(0.5)
+2025-09-24T07:52:06: KeyboardInterrupt
+2025-09-24T07:52:07: Traceback (most recent call last):
+2025-09-24T07:52:07:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:07:     main()
+2025-09-24T07:52:07:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:07:     time.sleep(0.5)
+2025-09-24T07:52:07: KeyboardInterrupt
+2025-09-24T07:52:07: Traceback (most recent call last):
+2025-09-24T07:52:07:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:07:     main()
+2025-09-24T07:52:07:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:07:     time.sleep(0.5)
+2025-09-24T07:52:07: KeyboardInterrupt
+2025-09-24T07:52:08: Traceback (most recent call last):
+2025-09-24T07:52:08:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:08:     main()
+2025-09-24T07:52:08:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:08:     time.sleep(0.5)
+2025-09-24T07:52:08: KeyboardInterrupt
+2025-09-24T07:52:08: Traceback (most recent call last):
+2025-09-24T07:52:08:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:08:     main()
+2025-09-24T07:52:08:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:08:     time.sleep(0.5)
+2025-09-24T07:52:08: KeyboardInterrupt
+2025-09-24T07:52:09: Traceback (most recent call last):
+2025-09-24T07:52:09:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:09:     main()
+2025-09-24T07:52:09:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:09:     time.sleep(0.5)
+2025-09-24T07:52:09: KeyboardInterrupt
+2025-09-24T07:52:09: Traceback (most recent call last):
+2025-09-24T07:52:09:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:09:     main()
+2025-09-24T07:52:09:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:09:     time.sleep(0.5)
+2025-09-24T07:52:09: KeyboardInterrupt
+2025-09-24T07:52:09: Traceback (most recent call last):
+2025-09-24T07:52:09:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:09:     main()
+2025-09-24T07:52:09:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:09:     time.sleep(0.5)
+2025-09-24T07:52:09: KeyboardInterrupt
+2025-09-24T07:52:10: Traceback (most recent call last):
+2025-09-24T07:52:10:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:10:     main()
+2025-09-24T07:52:10:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:10:     time.sleep(0.5)
+2025-09-24T07:52:10: KeyboardInterrupt
+2025-09-24T07:52:10: Traceback (most recent call last):
+2025-09-24T07:52:10:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:10:     main()
+2025-09-24T07:52:10:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:10:     time.sleep(0.5)
+2025-09-24T07:52:10: KeyboardInterrupt
+2025-09-24T07:52:11: Traceback (most recent call last):
+2025-09-24T07:52:11:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:11:     main()
+2025-09-24T07:52:11:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:11:     time.sleep(0.5)
+2025-09-24T07:52:11: KeyboardInterrupt
+2025-09-24T07:52:11: Traceback (most recent call last):
+2025-09-24T07:52:11:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:11:     main()
+2025-09-24T07:52:11:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:11:     time.sleep(0.5)
+2025-09-24T07:52:11: KeyboardInterrupt
+2025-09-24T07:52:12: Traceback (most recent call last):
+2025-09-24T07:52:12:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:12:     main()
+2025-09-24T07:52:12:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:12:     time.sleep(0.5)
+2025-09-24T07:52:12: KeyboardInterrupt
+2025-09-24T07:52:12: Traceback (most recent call last):
+2025-09-24T07:52:12:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:12:     main()
+2025-09-24T07:52:12:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:12:     time.sleep(0.5)
+2025-09-24T07:52:12: KeyboardInterrupt
+2025-09-24T07:52:13: Traceback (most recent call last):
+2025-09-24T07:52:13:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:13:     main()
+2025-09-24T07:52:13:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:13:     time.sleep(0.5)
+2025-09-24T07:52:13: KeyboardInterrupt
+2025-09-24T07:52:13: Traceback (most recent call last):
+2025-09-24T07:52:13:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:13:     main()
+2025-09-24T07:52:13:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:13:     time.sleep(0.5)
+2025-09-24T07:52:13: KeyboardInterrupt
+2025-09-24T07:52:13: Traceback (most recent call last):
+2025-09-24T07:52:13:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:13:     main()
+2025-09-24T07:52:13:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:13:     time.sleep(0.5)
+2025-09-24T07:52:13: KeyboardInterrupt
+2025-09-24T07:52:14: Traceback (most recent call last):
+2025-09-24T07:52:14:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:14:     main()
+2025-09-24T07:52:14:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:14:     time.sleep(0.5)
+2025-09-24T07:52:14: KeyboardInterrupt
+2025-09-24T07:52:14: Traceback (most recent call last):
+2025-09-24T07:52:14:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:14:     main()
+2025-09-24T07:52:14:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:14:     time.sleep(0.5)
+2025-09-24T07:52:14: KeyboardInterrupt
+2025-09-24T07:52:15: Traceback (most recent call last):
+2025-09-24T07:52:15:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:15:     main()
+2025-09-24T07:52:15:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:15:     time.sleep(0.5)
+2025-09-24T07:52:15: KeyboardInterrupt
+2025-09-24T07:52:15: Traceback (most recent call last):
+2025-09-24T07:52:15:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:15:     main()
+2025-09-24T07:52:15:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:15:     time.sleep(0.5)
+2025-09-24T07:52:15: KeyboardInterrupt
+2025-09-24T07:52:16: Traceback (most recent call last):
+2025-09-24T07:52:16:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:16:     main()
+2025-09-24T07:52:16:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:16:     time.sleep(0.5)
+2025-09-24T07:52:16: KeyboardInterrupt
+2025-09-24T07:52:16: Traceback (most recent call last):
+2025-09-24T07:52:16:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:16:     main()
+2025-09-24T07:52:16:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:16:     time.sleep(0.5)
+2025-09-24T07:52:16: KeyboardInterrupt
+2025-09-24T07:52:17: Traceback (most recent call last):
+2025-09-24T07:52:17:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:17:     main()
+2025-09-24T07:52:17:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:17:     time.sleep(0.5)
+2025-09-24T07:52:17: KeyboardInterrupt
+2025-09-24T07:52:17: Traceback (most recent call last):
+2025-09-24T07:52:17:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:17:     main()
+2025-09-24T07:52:17:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:17:     time.sleep(0.5)
+2025-09-24T07:52:17: KeyboardInterrupt
+2025-09-24T07:52:17: Traceback (most recent call last):
+2025-09-24T07:52:17:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:17:     main()
+2025-09-24T07:52:17:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:17:     time.sleep(0.5)
+2025-09-24T07:52:17: KeyboardInterrupt
+2025-09-24T07:52:18: Traceback (most recent call last):
+2025-09-24T07:52:18:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:18:     main()
+2025-09-24T07:52:18:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:18:     time.sleep(0.5)
+2025-09-24T07:52:18: KeyboardInterrupt
+2025-09-24T07:52:18: Traceback (most recent call last):
+2025-09-24T07:52:18:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:18:     main()
+2025-09-24T07:52:18:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:18:     time.sleep(0.5)
+2025-09-24T07:52:18: KeyboardInterrupt
+2025-09-24T07:52:19: Traceback (most recent call last):
+2025-09-24T07:52:19:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:19:     main()
+2025-09-24T07:52:19:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:19:     time.sleep(0.5)
+2025-09-24T07:52:19: KeyboardInterrupt
+2025-09-24T07:52:19: Traceback (most recent call last):
+2025-09-24T07:52:19:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:19:     main()
+2025-09-24T07:52:19:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:19:     time.sleep(0.5)
+2025-09-24T07:52:19: KeyboardInterrupt
+2025-09-24T07:52:20: Traceback (most recent call last):
+2025-09-24T07:52:20:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:20:     main()
+2025-09-24T07:52:20:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:20:     time.sleep(0.5)
+2025-09-24T07:52:20: KeyboardInterrupt
+2025-09-24T07:52:20: Traceback (most recent call last):
+2025-09-24T07:52:20:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:20:     main()
+2025-09-24T07:52:20:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:20:     time.sleep(0.5)
+2025-09-24T07:52:20: KeyboardInterrupt
+2025-09-24T07:52:21: Traceback (most recent call last):
+2025-09-24T07:52:21:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:21:     main()
+2025-09-24T07:52:21:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:21:     time.sleep(0.5)
+2025-09-24T07:52:21: KeyboardInterrupt
+2025-09-24T07:52:21: Traceback (most recent call last):
+2025-09-24T07:52:21:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:21:     main()
+2025-09-24T07:52:21:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:21:     time.sleep(0.5)
+2025-09-24T07:52:21: KeyboardInterrupt
+2025-09-24T07:52:21: Traceback (most recent call last):
+2025-09-24T07:52:21:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:21:     main()
+2025-09-24T07:52:21:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:21:     time.sleep(0.5)
+2025-09-24T07:52:21: KeyboardInterrupt
+2025-09-24T07:52:22: Traceback (most recent call last):
+2025-09-24T07:52:22:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:22:     main()
+2025-09-24T07:52:22:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:22:     time.sleep(0.5)
+2025-09-24T07:52:22: KeyboardInterrupt
+2025-09-24T07:52:22: Traceback (most recent call last):
+2025-09-24T07:52:22:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:22:     main()
+2025-09-24T07:52:22:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:22:     time.sleep(0.5)
+2025-09-24T07:52:22: KeyboardInterrupt
+2025-09-24T07:52:23: Traceback (most recent call last):
+2025-09-24T07:52:23:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:23:     main()
+2025-09-24T07:52:23:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:23:     time.sleep(0.5)
+2025-09-24T07:52:23: KeyboardInterrupt
+2025-09-24T07:52:23: Traceback (most recent call last):
+2025-09-24T07:52:23:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:23:     main()
+2025-09-24T07:52:23:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:23:     time.sleep(0.5)
+2025-09-24T07:52:23: KeyboardInterrupt
+2025-09-24T07:52:24: Traceback (most recent call last):
+2025-09-24T07:52:24:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:24:     main()
+2025-09-24T07:52:24:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:24:     time.sleep(0.5)
+2025-09-24T07:52:24: KeyboardInterrupt
+2025-09-24T07:52:24: Traceback (most recent call last):
+2025-09-24T07:52:24:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:24:     main()
+2025-09-24T07:52:24:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:24:     time.sleep(0.5)
+2025-09-24T07:52:24: KeyboardInterrupt
+2025-09-24T07:52:24: Traceback (most recent call last):
+2025-09-24T07:52:24:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:24:     main()
+2025-09-24T07:52:24:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:24:     time.sleep(0.5)
+2025-09-24T07:52:24: KeyboardInterrupt
+2025-09-24T07:52:25: Traceback (most recent call last):
+2025-09-24T07:52:25:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:25:     main()
+2025-09-24T07:52:25:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:25:     time.sleep(0.5)
+2025-09-24T07:52:25: KeyboardInterrupt
+2025-09-24T07:52:25: Traceback (most recent call last):
+2025-09-24T07:52:25:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:25:     main()
+2025-09-24T07:52:25:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:25:     time.sleep(0.5)
+2025-09-24T07:52:25: KeyboardInterrupt
+2025-09-24T07:52:26: Traceback (most recent call last):
+2025-09-24T07:52:26:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:26:     main()
+2025-09-24T07:52:26:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:26:     time.sleep(0.5)
+2025-09-24T07:52:26: KeyboardInterrupt
+2025-09-24T07:52:26: Traceback (most recent call last):
+2025-09-24T07:52:26:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:26:     main()
+2025-09-24T07:52:26:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:26:     time.sleep(0.5)
+2025-09-24T07:52:26: KeyboardInterrupt
+2025-09-24T07:52:27: Traceback (most recent call last):
+2025-09-24T07:52:27:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:27:     main()
+2025-09-24T07:52:27:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:27:     time.sleep(0.5)
+2025-09-24T07:52:27: KeyboardInterrupt
+2025-09-24T07:52:27: Traceback (most recent call last):
+2025-09-24T07:52:27:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:27:     main()
+2025-09-24T07:52:27:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:27:     time.sleep(0.5)
+2025-09-24T07:52:27: KeyboardInterrupt
+2025-09-24T07:52:28: Traceback (most recent call last):
+2025-09-24T07:52:28:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:28:     main()
+2025-09-24T07:52:28:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:28:     time.sleep(0.5)
+2025-09-24T07:52:28: KeyboardInterrupt
+2025-09-24T07:52:28: Traceback (most recent call last):
+2025-09-24T07:52:28:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:28:     main()
+2025-09-24T07:52:28:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:28:     time.sleep(0.5)
+2025-09-24T07:52:28: KeyboardInterrupt
+2025-09-24T07:52:28: Traceback (most recent call last):
+2025-09-24T07:52:28:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:28:     main()
+2025-09-24T07:52:28:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:28:     time.sleep(0.5)
+2025-09-24T07:52:28: KeyboardInterrupt
+2025-09-24T07:52:29: Traceback (most recent call last):
+2025-09-24T07:52:29:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:29:     main()
+2025-09-24T07:52:29:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:29:     time.sleep(0.5)
+2025-09-24T07:52:29: KeyboardInterrupt
+2025-09-24T07:52:29: Traceback (most recent call last):
+2025-09-24T07:52:29:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:29:     main()
+2025-09-24T07:52:29:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:29:     time.sleep(0.5)
+2025-09-24T07:52:29: KeyboardInterrupt
+2025-09-24T07:52:30: Traceback (most recent call last):
+2025-09-24T07:52:30:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:30:     main()
+2025-09-24T07:52:30:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:30:     time.sleep(0.5)
+2025-09-24T07:52:30: KeyboardInterrupt
+2025-09-24T07:52:30: Traceback (most recent call last):
+2025-09-24T07:52:30:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:30:     main()
+2025-09-24T07:52:30:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:30:     time.sleep(0.5)
+2025-09-24T07:52:30: KeyboardInterrupt
+2025-09-24T07:52:31: Traceback (most recent call last):
+2025-09-24T07:52:31:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:31:     main()
+2025-09-24T07:52:31:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:31:     time.sleep(0.5)
+2025-09-24T07:52:31: KeyboardInterrupt
+2025-09-24T07:52:31: Traceback (most recent call last):
+2025-09-24T07:52:31:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:31:     main()
+2025-09-24T07:52:31:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:31:     time.sleep(0.5)
+2025-09-24T07:52:31: KeyboardInterrupt
+2025-09-24T07:52:31: Traceback (most recent call last):
+2025-09-24T07:52:31:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:31:     main()
+2025-09-24T07:52:31:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:31:     time.sleep(0.5)
+2025-09-24T07:52:31: KeyboardInterrupt
+2025-09-24T07:52:32: Traceback (most recent call last):
+2025-09-24T07:52:32:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:32:     main()
+2025-09-24T07:52:32:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:32:     time.sleep(0.5)
+2025-09-24T07:52:32: KeyboardInterrupt
+2025-09-24T07:52:32: Traceback (most recent call last):
+2025-09-24T07:52:32:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:32:     main()
+2025-09-24T07:52:32:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:32:     time.sleep(0.5)
+2025-09-24T07:52:32: KeyboardInterrupt
+2025-09-24T07:52:33: Traceback (most recent call last):
+2025-09-24T07:52:33:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:33:     main()
+2025-09-24T07:52:33:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:33:     time.sleep(0.5)
+2025-09-24T07:52:33: KeyboardInterrupt
+2025-09-24T07:52:33: Traceback (most recent call last):
+2025-09-24T07:52:33:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:33:     main()
+2025-09-24T07:52:33:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:33:     time.sleep(0.5)
+2025-09-24T07:52:33: KeyboardInterrupt
+2025-09-24T07:52:34: Traceback (most recent call last):
+2025-09-24T07:52:34:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:34:     main()
+2025-09-24T07:52:34:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:34:     time.sleep(0.5)
+2025-09-24T07:52:34: KeyboardInterrupt
+2025-09-24T07:52:34: Traceback (most recent call last):
+2025-09-24T07:52:34:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:34:     main()
+2025-09-24T07:52:34:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:34:     time.sleep(0.5)
+2025-09-24T07:52:34: KeyboardInterrupt
+2025-09-24T07:52:35: Traceback (most recent call last):
+2025-09-24T07:52:35:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:35:     main()
+2025-09-24T07:52:35:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:35:     time.sleep(0.5)
+2025-09-24T07:52:35: KeyboardInterrupt
+2025-09-24T07:52:35: Traceback (most recent call last):
+2025-09-24T07:52:35:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:35:     main()
+2025-09-24T07:52:35:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:35:     time.sleep(0.5)
+2025-09-24T07:52:35: KeyboardInterrupt
+2025-09-24T07:52:35: Traceback (most recent call last):
+2025-09-24T07:52:35:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:35:     main()
+2025-09-24T07:52:35:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:35:     time.sleep(0.5)
+2025-09-24T07:52:35: KeyboardInterrupt
+2025-09-24T07:52:36: Traceback (most recent call last):
+2025-09-24T07:52:36:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:36:     main()
+2025-09-24T07:52:36:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:36:     time.sleep(0.5)
+2025-09-24T07:52:36: KeyboardInterrupt
+2025-09-24T07:52:36: Traceback (most recent call last):
+2025-09-24T07:52:36:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:36:     main()
+2025-09-24T07:52:36:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:36:     time.sleep(0.5)
+2025-09-24T07:52:36: KeyboardInterrupt
+2025-09-24T07:52:37: Traceback (most recent call last):
+2025-09-24T07:52:37:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:37:     main()
+2025-09-24T07:52:37:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:37:     time.sleep(0.5)
+2025-09-24T07:52:37: KeyboardInterrupt
+2025-09-24T07:52:37: Traceback (most recent call last):
+2025-09-24T07:52:37:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:37:     main()
+2025-09-24T07:52:37:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:37:     time.sleep(0.5)
+2025-09-24T07:52:37: KeyboardInterrupt
+2025-09-24T07:52:38: Traceback (most recent call last):
+2025-09-24T07:52:38:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:38:     main()
+2025-09-24T07:52:38:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:38:     time.sleep(0.5)
+2025-09-24T07:52:38: KeyboardInterrupt
+2025-09-24T07:52:38: Traceback (most recent call last):
+2025-09-24T07:52:38:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:38:     main()
+2025-09-24T07:52:38:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:38:     time.sleep(0.5)
+2025-09-24T07:52:38: KeyboardInterrupt
+2025-09-24T07:52:38: Traceback (most recent call last):
+2025-09-24T07:52:38:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:38:     main()
+2025-09-24T07:52:38:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:38:     time.sleep(0.5)
+2025-09-24T07:52:38: KeyboardInterrupt
+2025-09-24T07:52:39: Traceback (most recent call last):
+2025-09-24T07:52:39:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:39:     main()
+2025-09-24T07:52:39:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:39:     time.sleep(0.5)
+2025-09-24T07:52:39: KeyboardInterrupt
+2025-09-24T07:52:39: Traceback (most recent call last):
+2025-09-24T07:52:39:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:39:     main()
+2025-09-24T07:52:39:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:39:     time.sleep(0.5)
+2025-09-24T07:52:39: KeyboardInterrupt
+2025-09-24T07:52:40: Traceback (most recent call last):
+2025-09-24T07:52:40:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:40:     main()
+2025-09-24T07:52:40:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:40:     time.sleep(0.5)
+2025-09-24T07:52:40: KeyboardInterrupt
+2025-09-24T07:52:40: Traceback (most recent call last):
+2025-09-24T07:52:40:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:40:     main()
+2025-09-24T07:52:40:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:40:     time.sleep(0.5)
+2025-09-24T07:52:40: KeyboardInterrupt
+2025-09-24T07:52:40: Traceback (most recent call last):
+2025-09-24T07:52:40:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:40:     main()
+2025-09-24T07:52:40:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:40:     time.sleep(0.5)
+2025-09-24T07:52:40: KeyboardInterrupt
+2025-09-24T07:52:41: Traceback (most recent call last):
+2025-09-24T07:52:41:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:41:     main()
+2025-09-24T07:52:41:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:41:     time.sleep(0.5)
+2025-09-24T07:52:41: KeyboardInterrupt
+2025-09-24T07:52:41: Traceback (most recent call last):
+2025-09-24T07:52:41:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:41:     main()
+2025-09-24T07:52:41:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:41:     time.sleep(0.5)
+2025-09-24T07:52:41: KeyboardInterrupt
+2025-09-24T07:52:42: Traceback (most recent call last):
+2025-09-24T07:52:42:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:42:     main()
+2025-09-24T07:52:42:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:42:     time.sleep(0.5)
+2025-09-24T07:52:42: KeyboardInterrupt
+2025-09-24T07:52:42: Traceback (most recent call last):
+2025-09-24T07:52:42:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:42:     main()
+2025-09-24T07:52:42:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:42:     time.sleep(0.5)
+2025-09-24T07:52:42: KeyboardInterrupt
+2025-09-24T07:52:43: Traceback (most recent call last):
+2025-09-24T07:52:43:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:43:     main()
+2025-09-24T07:52:43:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:43:     time.sleep(0.5)
+2025-09-24T07:52:43: KeyboardInterrupt
+2025-09-24T07:52:43: Traceback (most recent call last):
+2025-09-24T07:52:43:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:43:     main()
+2025-09-24T07:52:43:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:43:     time.sleep(0.5)
+2025-09-24T07:52:43: KeyboardInterrupt
+2025-09-24T07:52:44: Traceback (most recent call last):
+2025-09-24T07:52:44:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:44:     main()
+2025-09-24T07:52:44:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:44:     time.sleep(0.5)
+2025-09-24T07:52:44: KeyboardInterrupt
+2025-09-24T07:52:44: Traceback (most recent call last):
+2025-09-24T07:52:44:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:44:     main()
+2025-09-24T07:52:44:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:44:     time.sleep(0.5)
+2025-09-24T07:52:44: KeyboardInterrupt
+2025-09-24T07:52:44: Traceback (most recent call last):
+2025-09-24T07:52:44:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:44:     main()
+2025-09-24T07:52:44:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:44:     time.sleep(0.5)
+2025-09-24T07:52:44: KeyboardInterrupt
+2025-09-24T07:52:45: Traceback (most recent call last):
+2025-09-24T07:52:45:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:45:     main()
+2025-09-24T07:52:45:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:45:     time.sleep(0.5)
+2025-09-24T07:52:45: KeyboardInterrupt
+2025-09-24T07:52:45: Traceback (most recent call last):
+2025-09-24T07:52:45:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:45:     main()
+2025-09-24T07:52:45:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:45:     time.sleep(0.5)
+2025-09-24T07:52:45: KeyboardInterrupt
+2025-09-24T07:52:46: Traceback (most recent call last):
+2025-09-24T07:52:46:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:46:     main()
+2025-09-24T07:52:46:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:46:     time.sleep(0.5)
+2025-09-24T07:52:46: KeyboardInterrupt
+2025-09-24T07:52:46: Traceback (most recent call last):
+2025-09-24T07:52:46:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:46:     main()
+2025-09-24T07:52:46:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:46:     time.sleep(0.5)
+2025-09-24T07:52:46: KeyboardInterrupt
+2025-09-24T07:52:47: Traceback (most recent call last):
+2025-09-24T07:52:47:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:47:     main()
+2025-09-24T07:52:47:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:47:     time.sleep(0.5)
+2025-09-24T07:52:47: KeyboardInterrupt
+2025-09-24T07:52:47: Traceback (most recent call last):
+2025-09-24T07:52:47:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:47:     main()
+2025-09-24T07:52:47:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:47:     time.sleep(0.5)
+2025-09-24T07:52:47: KeyboardInterrupt
+2025-09-24T07:52:48: Traceback (most recent call last):
+2025-09-24T07:52:48:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:48:     main()
+2025-09-24T07:52:48:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:48:     time.sleep(0.5)
+2025-09-24T07:52:48: KeyboardInterrupt
+2025-09-24T07:52:48: Traceback (most recent call last):
+2025-09-24T07:52:48:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:48:     main()
+2025-09-24T07:52:48:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:48:     time.sleep(0.5)
+2025-09-24T07:52:48: KeyboardInterrupt
+2025-09-24T07:52:48: Traceback (most recent call last):
+2025-09-24T07:52:48:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:48:     main()
+2025-09-24T07:52:48:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:48:     time.sleep(0.5)
+2025-09-24T07:52:48: KeyboardInterrupt
+2025-09-24T07:52:49: Traceback (most recent call last):
+2025-09-24T07:52:49:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:49:     main()
+2025-09-24T07:52:49:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:49:     time.sleep(0.5)
+2025-09-24T07:52:49: KeyboardInterrupt
+2025-09-24T07:52:49: Traceback (most recent call last):
+2025-09-24T07:52:49:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:49:     main()
+2025-09-24T07:52:49:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:49:     time.sleep(0.5)
+2025-09-24T07:52:49: KeyboardInterrupt
+2025-09-24T07:52:50: Traceback (most recent call last):
+2025-09-24T07:52:50:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:50:     main()
+2025-09-24T07:52:50:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:50:     time.sleep(0.5)
+2025-09-24T07:52:50: KeyboardInterrupt
+2025-09-24T07:52:50: Traceback (most recent call last):
+2025-09-24T07:52:50:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:50:     main()
+2025-09-24T07:52:50:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:50:     time.sleep(0.5)
+2025-09-24T07:52:50: KeyboardInterrupt
+2025-09-24T07:52:51: Traceback (most recent call last):
+2025-09-24T07:52:51:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:51:     main()
+2025-09-24T07:52:51:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:51:     time.sleep(0.5)
+2025-09-24T07:52:51: KeyboardInterrupt
+2025-09-24T07:52:51: Traceback (most recent call last):
+2025-09-24T07:52:51:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:51:     main()
+2025-09-24T07:52:51:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:51:     time.sleep(0.5)
+2025-09-24T07:52:51: KeyboardInterrupt
+2025-09-24T07:52:51: Traceback (most recent call last):
+2025-09-24T07:52:51:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:51:     main()
+2025-09-24T07:52:51:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:51:     time.sleep(0.5)
+2025-09-24T07:52:51: KeyboardInterrupt
+2025-09-24T07:52:52: Traceback (most recent call last):
+2025-09-24T07:52:52:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:52:     main()
+2025-09-24T07:52:52:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:52:     time.sleep(0.5)
+2025-09-24T07:52:52: KeyboardInterrupt
+2025-09-24T07:52:52: Traceback (most recent call last):
+2025-09-24T07:52:52:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:52:     main()
+2025-09-24T07:52:52:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:52:     time.sleep(0.5)
+2025-09-24T07:52:52: KeyboardInterrupt
+2025-09-24T07:52:53: Traceback (most recent call last):
+2025-09-24T07:52:53:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:53:     main()
+2025-09-24T07:52:53:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:53:     time.sleep(0.5)
+2025-09-24T07:52:53: KeyboardInterrupt
+2025-09-24T07:52:53: Traceback (most recent call last):
+2025-09-24T07:52:53:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:53:     main()
+2025-09-24T07:52:53:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:53:     time.sleep(0.5)
+2025-09-24T07:52:53: KeyboardInterrupt
+2025-09-24T07:52:54: Traceback (most recent call last):
+2025-09-24T07:52:54:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:54:     main()
+2025-09-24T07:52:54:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:54:     time.sleep(0.5)
+2025-09-24T07:52:54: KeyboardInterrupt
+2025-09-24T07:52:54: Traceback (most recent call last):
+2025-09-24T07:52:54:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:54:     main()
+2025-09-24T07:52:54:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:54:     time.sleep(0.5)
+2025-09-24T07:52:54: KeyboardInterrupt
+2025-09-24T07:52:54: Traceback (most recent call last):
+2025-09-24T07:52:54:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:54:     main()
+2025-09-24T07:52:54:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:54:     time.sleep(0.5)
+2025-09-24T07:52:54: KeyboardInterrupt
+2025-09-24T07:52:55: Traceback (most recent call last):
+2025-09-24T07:52:55:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:55:     main()
+2025-09-24T07:52:55:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:55:     time.sleep(0.5)
+2025-09-24T07:52:55: KeyboardInterrupt
+2025-09-24T07:52:55: Traceback (most recent call last):
+2025-09-24T07:52:55:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:55:     main()
+2025-09-24T07:52:55:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:55:     time.sleep(0.5)
+2025-09-24T07:52:55: KeyboardInterrupt
+2025-09-24T07:52:56: Traceback (most recent call last):
+2025-09-24T07:52:56:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:56:     main()
+2025-09-24T07:52:56:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:56:     time.sleep(0.5)
+2025-09-24T07:52:56: KeyboardInterrupt
+2025-09-24T07:52:56: Traceback (most recent call last):
+2025-09-24T07:52:56:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:56:     main()
+2025-09-24T07:52:56:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:56:     time.sleep(0.5)
+2025-09-24T07:52:56: KeyboardInterrupt
+2025-09-24T07:52:57: Traceback (most recent call last):
+2025-09-24T07:52:57:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:57:     main()
+2025-09-24T07:52:57:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:57:     time.sleep(0.5)
+2025-09-24T07:52:57: KeyboardInterrupt
+2025-09-24T07:52:57: Traceback (most recent call last):
+2025-09-24T07:52:57:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:57:     main()
+2025-09-24T07:52:57:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:57:     time.sleep(0.5)
+2025-09-24T07:52:57: KeyboardInterrupt
+2025-09-24T07:52:57: Traceback (most recent call last):
+2025-09-24T07:52:57:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:57:     main()
+2025-09-24T07:52:57:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:57:     time.sleep(0.5)
+2025-09-24T07:52:57: KeyboardInterrupt
+2025-09-24T07:52:58: Traceback (most recent call last):
+2025-09-24T07:52:58:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:58:     main()
+2025-09-24T07:52:58:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:58:     time.sleep(0.5)
+2025-09-24T07:52:58: KeyboardInterrupt
+2025-09-24T07:52:58: Traceback (most recent call last):
+2025-09-24T07:52:58:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:58:     main()
+2025-09-24T07:52:58:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:58:     time.sleep(0.5)
+2025-09-24T07:52:58: KeyboardInterrupt
+2025-09-24T07:52:59: Traceback (most recent call last):
+2025-09-24T07:52:59:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:59:     main()
+2025-09-24T07:52:59:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:59:     time.sleep(0.5)
+2025-09-24T07:52:59: KeyboardInterrupt
+2025-09-24T07:52:59: Traceback (most recent call last):
+2025-09-24T07:52:59:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:52:59:     main()
+2025-09-24T07:52:59:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:52:59:     time.sleep(0.5)
+2025-09-24T07:52:59: KeyboardInterrupt
+2025-09-24T07:53:00: Traceback (most recent call last):
+2025-09-24T07:53:00:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:53:00:     main()
+2025-09-24T07:53:00:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:53:00:     time.sleep(0.5)
+2025-09-24T07:53:00: KeyboardInterrupt
+2025-09-24T07:53:00: Traceback (most recent call last):
+2025-09-24T07:53:00:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:53:00:     main()
+2025-09-24T07:53:00:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:53:00:     time.sleep(0.5)
+2025-09-24T07:53:00: KeyboardInterrupt
+2025-09-24T07:53:01: Traceback (most recent call last):
+2025-09-24T07:53:01:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:53:01:     main()
+2025-09-24T07:53:01:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:53:01:     time.sleep(0.5)
+2025-09-24T07:53:01: KeyboardInterrupt
+2025-09-24T07:53:01: Traceback (most recent call last):
+2025-09-24T07:53:01:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:53:01:     main()
+2025-09-24T07:53:01:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:53:01:     time.sleep(0.5)
+2025-09-24T07:53:01: KeyboardInterrupt
+2025-09-24T07:53:02: Traceback (most recent call last):
+2025-09-24T07:53:02:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:53:02:     main()
+2025-09-24T07:53:02:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:53:02:     time.sleep(0.5)
+2025-09-24T07:53:02: KeyboardInterrupt
+2025-09-24T07:53:02: Traceback (most recent call last):
+2025-09-24T07:53:02:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:53:02:     main()
+2025-09-24T07:53:02:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:53:02:     time.sleep(0.5)
+2025-09-24T07:53:02: KeyboardInterrupt
+2025-09-24T07:53:03: Traceback (most recent call last):
+2025-09-24T07:53:03:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:53:03:     main()
+2025-09-24T07:53:03:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:53:03:     time.sleep(0.5)
+2025-09-24T07:53:03: KeyboardInterrupt
+2025-09-24T07:53:03: Traceback (most recent call last):
+2025-09-24T07:53:03:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:53:03:     main()
+2025-09-24T07:53:03:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:53:03:     time.sleep(0.5)
+2025-09-24T07:53:03: KeyboardInterrupt
+2025-09-24T07:53:03: Traceback (most recent call last):
+2025-09-24T07:53:03:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:53:03:     main()
+2025-09-24T07:53:03:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:53:03:     time.sleep(0.5)
+2025-09-24T07:53:03: KeyboardInterrupt
+2025-09-24T07:53:04: Traceback (most recent call last):
+2025-09-24T07:53:04:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:53:04:     main()
+2025-09-24T07:53:04:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:53:04:     time.sleep(0.5)
+2025-09-24T07:53:04: KeyboardInterrupt
+2025-09-24T07:53:04: Traceback (most recent call last):
+2025-09-24T07:53:04:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:53:04:     main()
+2025-09-24T07:53:04:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:53:04:     time.sleep(0.5)
+2025-09-24T07:53:04: KeyboardInterrupt
+2025-09-24T07:53:05: Traceback (most recent call last):
+2025-09-24T07:53:05:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:53:05:     main()
+2025-09-24T07:53:05:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:53:05:     time.sleep(0.5)
+2025-09-24T07:53:05: KeyboardInterrupt
+2025-09-24T07:53:05: Traceback (most recent call last):
+2025-09-24T07:53:05:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:53:05:     main()
+2025-09-24T07:53:05:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:53:05:     time.sleep(0.5)
+2025-09-24T07:53:05: KeyboardInterrupt
+2025-09-24T07:53:06: Traceback (most recent call last):
+2025-09-24T07:53:06:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:53:06:     main()
+2025-09-24T07:53:06:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:53:06:     time.sleep(0.5)
+2025-09-24T07:53:06: KeyboardInterrupt
+2025-09-24T07:53:06: Traceback (most recent call last):
+2025-09-24T07:53:06:   File "/root/cqc-services-scrapper/mainScraper.py", line 456, in <module>
+2025-09-24T07:53:06:     main()
+2025-09-24T07:53:06:   File "/root/cqc-services-scrapper/mainScraper.py", line 392, in main
+2025-09-24T07:53:06:     time.sleep(0.5)
+2025-09-24T07:53:06: KeyboardInterrupt

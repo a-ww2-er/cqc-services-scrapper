@@ -294,8 +294,8 @@ def main():
     Main function to run the entire process using the pre-downloaded CSV.
     Includes resume functionality to continue from where it left off.
     """
-    input_csv = 'cqc_data_original.csv'  
-    output_csv = 'cqc_data_with_emails.csv'   
+    input_csv = 'cqc_care_homes.csv'  
+    output_csv = 'cqc_care_homes_with_emails.csv'   
     
     # Read all data from the original CSV
     print(f"Reading data from {input_csv}...")
