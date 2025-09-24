@@ -1,4 +1,4 @@
-#!/root/cqc-services-scrapper/venv/bin/python3
+#!/home/elite-geschichte/projects/cqc-scrapper/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
