@@ -11,7 +11,7 @@ module.exports = {
     env_production: {
       NODE_ENV: 'production',
     },
-    watch: true,               // Disable file watching
+    watch: false,               // Disable file watching
     autorestart: false,          // Auto-restart if process fails
     max_memory_restart: '1G',   // Restart if memory exceeds 1GB
     log_file: 'combined.log',   // Combined log output
